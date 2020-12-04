@@ -1,65 +1,32 @@
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 500px;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
+/* Style inputs */
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* Uniform text field size */
-  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-
-  /* Match form field borders */
-  border: 1px solid #999;
 }
 
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: #000;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
+/* Style the submit button */
 button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: 0.5em;
+  width: 50%;
+  background-color: #198a00;
+  color: white;
+  padding: 14px 20px;
+  margin: 0 0 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form {
+  width: 50%;
+}
+
+#msg {
+  height: 130px;
 }
