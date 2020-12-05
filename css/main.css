@@ -48,10 +48,15 @@ header {
   flex: 0 1 100%;
   grid-area: header;
   width: 100%;
+  height: calc(10vh - 5px);
 }
 
 footer {
   grid-area: footer;
   width: 100%;
-  height: calc(50vh - 30px);
+  height: calc(10vh - 5px);
+  background-color: #1c1717;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }

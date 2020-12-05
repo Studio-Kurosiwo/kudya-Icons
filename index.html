@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif" rel="stylesheet">
     <title>Kudiaicons</title>
-</header>
+</head>
 <body>
     <div class="grid-container">
         <header><h1 class="siteName">Kudia Icons</h1></header>
@@ -266,28 +266,30 @@
               </div><!---end sceneCard-->
            </div><!---end iconCard-->
 
+           <form action="https://formspree.io/f/xdoplrvj" method="post">
+            <h3>Get in touch</h3>
+            <ul>
+             <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email">
+             </li>
+             <li>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+            </ul>
+            <li class="button">
+              <button type="submit">Send your message</button>
+            </li>
+           </form>
+
         </main>
           <footer>
-            <form action="https://formspree.io/f/xdoplrvj" method="post">
-              <h3>Get in touch</h3>
-              <ul>
-               <li>
-                 <label for="name">Name:</label>
-                 <input type="text" id="name" name="user_name">
-               </li>
-               <li>
-                 <label for="mail">E-mail:</label>
-                 <input type="email" id="mail" name="user_email">
-               </li>
-               <li>
-                 <label for="msg">Message:</label>
-                 <textarea id="msg" name="user_message"></textarea>
-               </li>
-              </ul>
-              <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-             </form>
+           
           </footer>      
       </div>
     <script src="./js/main.js"></script>
