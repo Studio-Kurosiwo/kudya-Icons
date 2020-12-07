@@ -45,6 +45,7 @@
 .cardFaceBack {
   border: none;
   transform: rotateY(180deg);
+  background-color: #ef7d00;
 }
 
 .cardFaceFront:hover {
