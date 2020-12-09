@@ -5,6 +5,7 @@
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 /*.cardCaptionBack :hover,*/

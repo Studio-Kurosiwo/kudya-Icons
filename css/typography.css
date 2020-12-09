@@ -5,7 +5,7 @@ html,
 }
 body,
 .article {
-  font-family: "Bree Serif", serif;
+  font-family: 'Bree Serif', serif;
   font-size: 1em;
   line-height: 1.3125em;
   margin: auto;
@@ -13,7 +13,7 @@ body,
 }
 h1,
 .h1 {
-  font-family: "Alegreya", Serif;
+  font-family: 'Alegreya', Serif;
   font-size: 4.25em;
   line-height: 1.23529412em;
   margin-top: 0.30882353em;
@@ -21,7 +21,7 @@ h1,
 }
 h2,
 .h2 {
-  font-family: "Alegreya", Serif;
+  font-family: 'Alegreya', Serif;
   font-size: 2.625em;
   line-height: 1em;
   margin-top: 0.5em;
@@ -29,7 +29,7 @@ h2,
 }
 h3,
 .h3 {
-  font-family: "Alegreya", Serif;
+  font-family: 'Alegreya', Serif;
   font-size: 1.625em;
   line-height: 1.61538462em;
   margin-top: 0.80769231em;
@@ -37,7 +37,7 @@ h3,
 }
 h4,
 .h4 {
-  font-family: "Alegreya", Serif;
+  font-family: 'Alegreya', Serif;
   font-size: 1em;
   line-height: 1.3125em;
   margin-top: 1.3125em;
@@ -45,7 +45,7 @@ h4,
 }
 h5,
 .h5 {
-  font-family: "Alegreya", Serif;
+  font-family: 'Alegreya', Serif;
   font-size: 1em;
   line-height: 1.3125em;
   margin-top: 1.3125em;
