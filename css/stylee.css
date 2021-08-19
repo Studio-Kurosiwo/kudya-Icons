@@ -1,0 +1,54 @@
+.iconCard {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+/*.cardCaptionBack :hover,*/
+.cardCaptionFront :hover {
+}
+
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.cardFaceFront {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  height: auto;
+}
+
+.cardFaceBack {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cardCaptionBack,
+.cardCaptionFront {
+  background-color: #ef7d00;
+  padding: 1rem 1rem;
+}
+
+.cardFaceFront {
+  /* background: url("http://placehold.it/250x250");*/
+}
+
+.cardFaceBack {
+  border: none;
+  transform: rotateY(180deg);
+  background-color: #ef7d00;
+}
+
+.cardFaceFront:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
